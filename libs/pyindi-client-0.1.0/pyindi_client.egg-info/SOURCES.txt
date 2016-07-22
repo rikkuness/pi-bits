@@ -1,0 +1,9 @@
+PyIndi.py
+README.rst
+indiclientpython.i
+setup.cfg
+setup.py
+pyindi_client.egg-info/PKG-INFO
+pyindi_client.egg-info/SOURCES.txt
+pyindi_client.egg-info/dependency_links.txt
+pyindi_client.egg-info/top_level.txt
