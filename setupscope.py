@@ -4,6 +4,7 @@ import datetime
 import threading
 from gps import *
 import dateutil.parser
+import ephem
 
 gpsd = None
 gpsp = None
@@ -64,6 +65,10 @@ class Celestron(object):
 		dec = (int(dec, 16) / 16777216) * 360
 
 		return (ra, dec)
+
+	def get_ra_dec(self):
+		data = self._send(b'E')
+		
 
 	def get_location(self):
 		data = self._send(b'w')
