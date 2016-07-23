@@ -7,3 +7,5 @@ cgps
 
 # INDI
 http://indilib.org/download/raspberry-pi.html
+
+apt-get install python-serial python-dateutil
